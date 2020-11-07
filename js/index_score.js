@@ -18,7 +18,7 @@ var re01 = new ScrollMagic.Scene({
     })
     .addTo(controller);
 
-//---------跑馬燈JS------
+//---------跑馬燈js------
 var recom01 = { score: 0 },
     recom01_num = document.getElementById('recom01_num');
 
