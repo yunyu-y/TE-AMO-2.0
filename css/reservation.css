@@ -4,6 +4,17 @@
 .min_nav > ul > li.reservation {
     background: linear-gradient(360deg, rgba(255, 255, 255, 0), #e1d3b6);
 }
+.res_videoOut {
+    /* border: 1px solid blue; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+/* !!!video調整寬就好,調整高會影響寬!!! */
+.res_video {
+    /* border: 1px solid red; */
+    width: 90%;
+}
 .des_are1 {
     width: 100%;
 }
@@ -32,6 +43,7 @@
 }
 .des_introContent {
     margin: 0 auto;
+    text-align: center;
     font-size: 1.5rem;
 }
 @media (max-width: 992px) {
@@ -86,4 +98,26 @@
 .des_introdeco img {
     width: 35px;
     margin: 10px auto;
+}
+.res_step {
+    width: 100%;
+}
+.res_stepOut {
+    border: 1px solid red;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.step01 {
+    border: 10px solid #d69960;
+    border-radius: 50%;
+}
+.step02 {
+    border: 10px solid #16515b;
+    border-radius: 50%;
+}
+.step03 {
+    border: 10px solid #5b2a26;
+    border-radius: 50%;
 }
