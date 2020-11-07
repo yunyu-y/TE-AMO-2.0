@@ -588,15 +588,21 @@ div.res_btn:hover {
 .pf_LTop02,
 .pf_RBottom01,
 .pf_RBottom02 {
-    /* position: relative; */
     width: 49.5%;
     margin: 0 auto;
 }
 .portfoliobg_R {
-    /* position: absolute; */
     width: 50%;
     display: flex;
     flex-direction: column;
+}
+.pf_LTop01 > img,
+.pf_LTop02 > img,
+.pf_LBottom > img,
+.pf_RTop > img,
+.pf_RBottom01 > img,
+.pf_RBottom02 > img {
+    transition: 1s;
 }
 .pf_LTop01 > img:hover,
 .pf_LTop02 > img:hover,
@@ -605,8 +611,20 @@ div.res_btn:hover {
 .pf_RBottom01 > img:hover,
 .pf_RBottom02 > img:hover {
     opacity: 0.85;
-    transform: scale(1.1, 1.1);
-    transition-duration: 1s;
+    transform: scale(1.2, 1.2);
+}
+/* .pf_LTop01,
+.pf_LTop02,
+.pf_RTop {
+    padding-bottom: 10px;
+} */
+.pf_LTop01,
+.pf_LTop02,
+.pf_LBottom,
+.pf_RTop,
+.pf_RBottom01,
+.pf_RBottom02 {
+    overflow: hidden;
 }
 .pf_more {
     /* border: 1px solid blue; */

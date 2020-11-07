@@ -10,11 +10,12 @@ header {
     /* height: 87px; */
 }
 header.sticky {
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 2px 2px 10px 0px gray;
 }
 div.nav {
     /* border: 1px solid red; */
-    border-bottom: 1px dotted rgba(0, 0, 0, 0.39);
+    /* border-bottom: 1px dotted rgba(0, 0, 0, 0.39); */
     width: 90%;
     margin: 0 auto;
     display: flex;

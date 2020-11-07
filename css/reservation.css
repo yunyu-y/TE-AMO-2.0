@@ -37,14 +37,12 @@
     width: 5rem;
     height: 5rem;
 }
-.des_introTitle_1 {
-    font-size: 2rem;
-    margin: -3rem auto 0 auto;
-}
+
 .des_introContent {
     margin: 0 auto;
     text-align: center;
     font-size: 1.5rem;
+    line-height: 2rem;
 }
 @media (max-width: 992px) {
     .des_introTitle {
@@ -103,21 +101,110 @@
     width: 100%;
 }
 .res_stepOut {
-    border: 1px solid red;
-    width: 90%;
+    /* border: 1px solid red; */
+    width: 85%;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    color: #698396;
+}
+.step01 {
+    /* border: 5px solid #d69960;
+    border-radius: 0px 100% 100% 0px; */
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.step02 {
+    /* border: 8px solid #16515b; */
+    width: 20%;
+    /* border-radius: 50%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.step03 {
+    /* border: 8px solid #5b2a26; */
+    /* border-radius: 50%; */
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.step_top {
+    font-size: 1.5rem;
+    background-color: #e1d3b6;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 50%;
+}
+.step_bottomImg {
     display: flex;
     justify-content: center;
 }
-.step01 {
-    border: 10px solid #d69960;
-    border-radius: 50%;
+
+.step_bottomText {
+    /* border: 1px solid green; */
+    margin: 1.5rem auto;
+    font-size: 1.2rem;
+    text-align: center;
 }
-.step02 {
-    border: 10px solid #16515b;
-    border-radius: 50%;
+.fa-angle-double-right,
+.fa-angle-double-down {
+    /* border: 1px solid blue; */
+    color: #e1d3b6;
+    margin: auto 0;
 }
-.step03 {
-    border: 10px solid #5b2a26;
-    border-radius: 50%;
+.fa-angle-double-down {
+    /* border: 1px solid blue; */
+    display: none !important;
+}
+/* -------reservation-form START------ */
+.res_form {
+    /* 有這個boder margin才有效果 */
+    border: 1px solid rgba(255, 0, 0, 0);
+    width: 100%;
+    margin: 4rem auto;
+    background-image: url(../images/bg_photography.jpg);
+}
+.res_formOut {
+    /* border: 1px solid blue; */
+    width: 90%;
+    margin: 3rem auto;
+    display: flex;
+    box-shadow: 2px 2px 10px 0px rgba(128, 128, 128, 0.8);
+}
+.res_formL {
+    width: 35%;
+    opacity: 0.9;
+}
+.res_formL {
+    display: flex;
+}
+.res_formR {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.formCon {
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+.formCon_Tit {
+    /* border: 1px solid blue; */
+    font-size: 1.5rem;
+    width: 33.3%;
+    text-align: center;
+}
+.formCon_Box {
+    /* border: 1px solid orange; */
+
+    width: 66.6%;
+}
+.date01 {
+    width: 22.2%;
 }
