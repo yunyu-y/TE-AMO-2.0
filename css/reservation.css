@@ -1,3 +1,89 @@
 @import './common/all.css';
 @import './common/header.css';
 @import './common/footer.css';
+.min_nav > ul > li.reservation {
+    background: linear-gradient(360deg, rgba(255, 255, 255, 0), #e1d3b6);
+}
+.des_are1 {
+    width: 100%;
+}
+.des_intro {
+    width: 70%;
+    height: 220px;
+    margin: -5rem auto 0 auto;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.des_introTitle {
+    margin: 0 auto;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+.des_introTitle > img {
+    width: 5rem;
+    height: 5rem;
+}
+.des_introTitle_1 {
+    font-size: 2rem;
+    margin: -3rem auto 0 auto;
+}
+.des_introContent {
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+@media (max-width: 992px) {
+    .des_introTitle {
+        font-size: 1.5rem;
+    }
+
+    .des_introTitle_1 {
+        font-size: 1.5rem;
+    }
+    .des_introContent {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 768px) {
+    div.bannerbg {
+        width: 100%;
+        height: 90vh;
+    }
+    .des_intro {
+        width: 100%;
+    }
+}
+@media (max-width: 576px) {
+    .des_intro {
+        height: 150px;
+    }
+    .des_introTitle {
+        font-size: 1.1rem;
+    }
+    .des_introTitle > img {
+        width: 3rem;
+        height: 3rem;
+    }
+    .des_introTitle_1 {
+        font-size: 1.1rem;
+    }
+    .des_introContent {
+        font-size: 0.9rem;
+    }
+}
+.des_area2 {
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.des_introdeco {
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}
+.des_introdeco img {
+    width: 35px;
+    margin: 10px auto;
+}
