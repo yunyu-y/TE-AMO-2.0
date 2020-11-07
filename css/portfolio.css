@@ -85,12 +85,10 @@ div.bannerbg {
         line-height: 25px;
     }
 }
-
 .pf_area2 {
     width: 100%;
     margin: 2rem 0;
 }
-
 .pf_introdeco {
     /* border: 1px solid red; */
     margin: 0 auto;
@@ -132,12 +130,12 @@ div.bannerbg {
 .container .box .imgBox {
     position: relative;
 }
-.container .box .imgBox img {
+/* .container .box .imgBox img {
     max-width: 100%;
-    /* transition: 2s; */
+    transition: 2s;
     position: relative;
 }
-/* .container .box:hover .imgBox img {
+.container .box:hover .imgBox img {
     transform: scale(1.2);
 } */
 .container .box .details {
@@ -185,5 +183,8 @@ div.bannerbg {
 @media (max-width: 576px) {
     .container .box .details .content {
         font-size: 1.2rem;
+    }
+    .container .box {
+        width: 100%;
     }
 }
