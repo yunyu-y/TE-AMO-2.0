@@ -87,7 +87,7 @@ div.res_btn::after {
     transform: translate(-50%, -50%);
     z-index: -1;
     background-color: #e1d3b6;
-    /*border: 1px solid brown;*/
+    /* border: 1px solid brown; */
 }
 div.res_btn:hover {
     opacity: 0.8;
@@ -483,7 +483,7 @@ div.res_btn:hover {
         margin: 0;
     }
     .work_name {
-        padding: 14px 0 10px 0;
+        padding: 14px 0 7px 0;
         width: 300px;
         margin: 10px;
     }
@@ -497,35 +497,27 @@ div.res_btn:hover {
         background-color: #90604c;
         top: 40px;
     }
-    .work_title > h3 {
-        font-size: 1.5rem;
+    .work_title > h4 {
+        font-size: 20px;
     }
 }
-@media (max-width: 400px) {
+@media (max-width: 576px) {
     .work_designer {
         width: 100%;
-        font-size: 14px;
         display: flex;
         justify-content: center;
         margin: 0;
     }
     .work_name {
-        padding: 14px 0 10px 0;
+        padding: 10px 0 8px 0;
         width: 300px;
         margin: 10px;
+        font-size: 14px;
     }
     #work_MK::after,
     #work_LW::after,
     #work_VW::after {
-        content: '';
-        display: block;
-        position: absolute;
-        height: 2px;
-        background-color: #90604c;
-        top: 40px;
-    }
-    .work_title > h3 {
-        font-size: 1.5rem;
+        top: 34px;
     }
 }
 .area4 {
@@ -668,6 +660,7 @@ div.res_btn:hover {
 }
 
 .area5_res {
+    font-size: 44px;
     text-align: center;
     font-family: 'Cormorant Upright', serif;
     font-style: italic;
