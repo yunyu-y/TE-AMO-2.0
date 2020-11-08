@@ -28,7 +28,7 @@
     padding-left: 20rem;
     width: 60%;
     font-family: 'Cormorant Upright', serif;
-    color: ivory;
+    color: rgba(255, 255, 240, 0.8);
     text-shadow: 0px 0px 5px black;
 }
 @media (max-width: 1200px) {
