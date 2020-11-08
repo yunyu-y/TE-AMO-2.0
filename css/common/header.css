@@ -7,7 +7,6 @@ header {
     left: 0;
     z-index: 100;
     transform: translateZ(1000);
-    /* height: 87px; */
 }
 header.sticky {
     background: rgba(255, 255, 255, 0.9);
@@ -15,7 +14,6 @@ header.sticky {
 }
 div.nav {
     /* border: 1px solid red; */
-    /* border-bottom: 1px dotted rgba(0, 0, 0, 0.39); */
     width: 90%;
     margin: 0 auto;
     display: flex;
@@ -41,7 +39,7 @@ div.nav {
 }
 .min_nav > ul > li > a {
     /* border: 1px solid orange; */
-    font-size: 1.3rem;
+    font-size: 20px;
     display: block;
     padding: 18px 15px 10px 15px;
     margin: 0;
@@ -211,7 +209,7 @@ div.nav {
     text-align: center;
     display: block;
     padding: 20px;
-    font-size: 2rem;
+    font-size: 32px;
 }
 .nav_list > ul > li :hover {
     background-color: #3d2b26;
