@@ -937,3 +937,18 @@ section.area7 {
         box-shadow: 1px 1px 10px gray;
     }
 }
+@media (max-width: 414px) {
+    .blog_Limg img {
+        height: 490px;
+    }
+}
+@media (max-width: 375px) {
+    .blog_Limg img {
+        height: 443px;
+    }
+}
+@media (max-width: 320px) {
+    .blog_Limg img {
+        height: 378px;
+    }
+}
