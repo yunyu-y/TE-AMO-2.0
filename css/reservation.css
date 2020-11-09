@@ -330,17 +330,17 @@ button:hover {
     }
 }
 @media (max-width: 414px) {
-    .desm_deco img {
+    .res_formL img {
         height: 501px;
     }
 }
 @media (max-width: 375px) {
-    .rdesm_deco img {
+    .res_formL img {
         height: 453px;
     }
 }
 @media (max-width: 320px) {
-    .desm_deco img {
-        height: 387px;
+    .res_formL img {
+        height: 3px;
     }
 }
