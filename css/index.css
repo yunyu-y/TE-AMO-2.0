@@ -927,7 +927,7 @@ section.area7 {
         flex-direction: column;
     }
     .blog_Limg {
-        width: 96%;
+        width: 50%;
         margin: 0 auto;
     }
     .blog_Limg img {
