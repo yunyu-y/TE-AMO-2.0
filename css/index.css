@@ -100,6 +100,11 @@ div.res_btn::after {
 div.res_btn:hover {
     opacity: 0.8;
 }
+@media (max-width: 320px) {
+    div.res_btn {
+        width: 250px;
+    }
+}
 /* banner_btn end*/
 .area1 {
     width: 100%;
@@ -161,7 +166,16 @@ div.res_btn:hover {
         margin-top: 1.5rem;
     }
 }
-@media (max-width: 414px) {
+@media (max-width: 576px) {
+    h2 {
+        font-size: 28px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 16px;
+    }
     .slogan {
         height: 400px;
         flex-direction: column;
@@ -183,6 +197,7 @@ div.res_btn:hover {
         font-size: 0.8rem;
     }
 }
+
 .area2 {
     /* border: 1px solid red; */
     width: 100%;
@@ -505,6 +520,19 @@ div.res_btn:hover {
         top: 34px;
     }
 }
+@media (max-width: 320px) {
+    .work_name {
+        padding: 5px 0 3px 0;
+        width: 250px;
+        margin: 5px;
+        font-size: 12px;
+    }
+    #work_MK::after,
+    #work_LW::after,
+    #work_VW::after {
+        top: 20px;
+    }
+}
 .area4 {
     background-image: url(../images/bgtree.jpg);
     padding-top: 5rem;
@@ -578,12 +606,12 @@ div.res_btn:hover {
     overflow: hidden;
 }
 .pf_more {
-    /* border: 1px solid blue; */
+    border: 3px solid #90604c;
     width: 80%;
     margin: 0.5rem auto;
     text-align: center;
     padding: 14px 0 10px 0;
-    background-color: #e1d3b6;
+    /* background-color: #e1d3b6; */
     color: #90604c;
 }
 .pf_more:hover {
@@ -598,10 +626,8 @@ div.res_btn:hover {
         text-shadow: 3px 3px 10px #e1d3b6;
         margin: 2rem auto 0 auto;
     }
-    .portfoliobg {
-        border: 1px solid rebeccapurple;
-        width: 80%;
-        margin: 0 auto;
+    .portfolio {
+        width: 98%;
     }
     .portfoliobg,
     .portfolio_L,
@@ -622,9 +648,14 @@ div.res_btn:hover {
         margin: 0 auto;
         width: 65%;
         font-size: 16px;
+        margin-top: 1rem;
     }
 }
-
+@media (max-width: 320px) {
+    .pf_more {
+        margin-bottom: -4rem;
+    }
+}
 .area5 {
     width: 100%;
     background-image: url(../images/reservation_bg.png);
@@ -689,6 +720,14 @@ div.res_btn:hover {
 
     .area5_resBtn {
         width: 70%;
+    }
+}
+@media (max-width: 320px) {
+    .area5_res {
+        font-size: 20px;
+    }
+    .area5_resBtn {
+        font-size: 16px;
     }
 }
 section.area6 {
@@ -857,16 +896,17 @@ section.area7 {
 }
 .blog_content {
     font-size: 20px;
-    line-height: 2rem;
+    line-height: 2.5rem;
 }
 
 .blog_more {
+    border: 3px solid #90604c;
     width: 65%;
     margin: 0 auto 1rem auto;
     text-align: center;
     padding: 14px 0 10px 0;
-    font-size: 1.5rem;
-    background-color: #e1d3b6;
+    /* font-size: 1.5rem; */
+    /* background-color: #e1d3b6; */
     color: #90604c;
 }
 
@@ -886,6 +926,7 @@ section.area7 {
     .blog_content {
         width: 100%;
         font-size: 18px;
+        line-height: 2rem;
     }
 }
 @media (max-width: 992px) {

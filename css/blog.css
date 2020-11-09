@@ -89,6 +89,12 @@ div.bannerbg {
         font-size: 0.9rem;
     }
 }
+@media (max-width: 320px) {
+    .blog_introTitle_1 {
+        font-size: 14px;
+    }
+}
+
 .blog_area2 {
     width: 100%;
     margin: 2rem 0;
@@ -242,5 +248,11 @@ aside.move {
     }
     .blog_pageRsum {
         font-size: 12px;
+    }
+}
+@media (max-width: 320px) {
+    .blog_pageRname,
+    .blog_pageRnum {
+        font-size: 14px;
     }
 }
