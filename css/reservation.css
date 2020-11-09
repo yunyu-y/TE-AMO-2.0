@@ -245,6 +245,7 @@ footer {
 .btn_area {
     display: flex;
     justify-content: space-around;
+    margin: 0.5rem 0;
 }
 button {
     border: 1px solid #90604c;
@@ -277,16 +278,17 @@ button:hover {
         width: 90%;
     }
     .res_formOut {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 100%;
         flex-direction: column;
     }
     .res_formL {
-        margin: 0 auto;
+        margin: 1rem auto;
         width: 60%;
+        box-shadow: 2px 2px 5px gray;
     }
     .res_formR {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         margin: 0 auto;
     }
     .formCon {
@@ -305,7 +307,14 @@ button:hover {
 }
 @media (max-width: 768px) {
     .res_formR {
+        /* border: 1px solid red; */
         width: 100%;
+    }
+    /* .formCon {
+        border: 1px solid blue;
+    } */
+    .formCon_Tit {
+        width: 25%;
     }
     h2 {
         font-size: 25px;
