@@ -827,7 +827,7 @@ section.area7 {
     justify-content: center;
 }
 .blog_bigcontent {
-    border: 1px solid green;
+    border: 1px solid blue;
     width: 90%;
     margin: 0 auto;
     display: flex;
@@ -932,8 +932,8 @@ section.area7 {
     }
     .blog_Limg img {
         width: 100%;
-        /* min-width: 415px; */
-        /* min-height: 575px; */
+        max-width: 100% !important;
+        max-height: 100% !important;
     }
     .blog_Rarea {
         width: 95%;
