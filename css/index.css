@@ -653,13 +653,14 @@ div.res_btn:hover {
     margin-top: 30px;
 }
 .area5_resBtn {
-    width: 30%;
+    width: 40%;
     text-align: center;
-    margin: 40px auto 2rem auto;
+    margin: 40px auto 32px auto;
     padding: 15px 10px 8px 10px;
-    box-shadow: 1px 1px 10px 0px gray;
-    background-color: #e1d3b6b0;
-    color: #90604c;
+    border: 2px solid ivory;
+    color: ivory;
+    text-shadow: 5px 5px 10px black;
+    box-shadow: 3px 3px 10px ivory;
 }
 
 .area5_resBtn:hover {
@@ -667,39 +668,31 @@ div.res_btn:hover {
     background-color: #90604c;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 992px) {
     .area5_Out {
-        width: 95%;
-    }
-    .area5_res {
-        /* font-size: 2rem; */
-        text-shadow: 5px 5px 10px black;
-        margin-top: 30px;
+        width: 100%;
     }
     .area5_resBtn {
-        width: 30%;
-        /* font-size: 1.2rem; */
-        margin: 1rem auto;
-        padding: 15px 10px 8px 10px;
-        box-shadow: 1px 1px 10px 0px gray;
+        width: 50%;
+    }
+}
+@media (max-width: 768px) {
+    .area5_res {
+        font-size: 30px;
+    }
+    .area5_resBtn {
+        font-size: 24px;
     }
 }
 
 @media (max-width: 576px) {
-    .area5_Out {
-        width: 100%;
+    .area5 {
+        background-attachment: scroll;
+        background-position: center center;
     }
-    .area5_res {
-        /* font-size: 1.5rem; */
-        text-shadow: 5px 5px 10px black;
-        margin-top: 30px;
-    }
+
     .area5_resBtn {
-        width: 65%;
-        /* font-size: 1rem; */
-        /* margin: 0 auto; */
-        padding: 10px 0px 5px 0px;
-        box-shadow: 1px 1px 10px 0px gray;
+        width: 70%;
     }
 }
 section.area6 {

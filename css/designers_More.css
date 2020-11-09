@@ -160,6 +160,12 @@ button {
     margin: 2rem auto;
 }
 
+@media (max-width: 576px) {
+    .desm_deco img {
+        min-width: 62px;
+    }
+}
+
 .desm_res {
     width: 100%;
     background-image: url(../images/desm_bg.png);
@@ -186,7 +192,7 @@ button {
 .desm_resBtn {
     width: 40%;
     text-align: center;
-    margin: 40px auto 2rem auto;
+    margin: 40px auto 32px auto;
     padding: 15px 10px 8px 10px;
     border: 2px solid ivory;
     color: ivory;
@@ -213,9 +219,6 @@ button {
     }
     .desm_resBtn {
         font-size: 24px;
-    }
-    .desm_resBtn {
-        width: 50%;
     }
 }
 @media (max-width: 576px) {
