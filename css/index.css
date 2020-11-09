@@ -836,14 +836,14 @@ section.area7 {
 }
 .blog_Limg {
     /* border: 1px solid red; */
-    width: 36.5%;
+    width: 40%;
     display: flex;
     overflow: hidden;
 }
 
 .blog_Rarea {
     /* border: 1px solid blue; */
-    width: 36.5%;
+    width: 45%;
     padding: 30px;
     background-color: rgba(255, 255, 255, 0.8);
 }
@@ -901,6 +901,9 @@ section.area7 {
 }
 
 @media (max-width: 768px) {
+    .blog_Limg {
+        width: 49%;
+    }
     .blog_Rarea {
         padding: 20px;
     }
@@ -924,13 +927,13 @@ section.area7 {
         flex-direction: column;
     }
     .blog_Limg {
-        width: 95%;
+        width: 96%;
         margin: 0 auto;
     }
     .blog_Limg img {
         width: 100%;
         /* min-width: 415px; */
-        min-height: 575px;
+        /* min-height: 575px; */
     }
     .blog_Rarea {
         width: 95%;
