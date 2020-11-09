@@ -329,4 +329,18 @@ button:hover {
         margin: 0.5rem auto;
     }
 }
-
+@media (max-width: 414px) {
+    .desm_deco img {
+        height: 501px;
+    }
+}
+@media (max-width: 375px) {
+    .rdesm_deco img {
+        height: 453px;
+    }
+}
+@media (max-width: 320px) {
+    .desm_deco img {
+        height: 387px;
+    }
+}
