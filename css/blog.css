@@ -8,7 +8,6 @@
 div.bannerbg {
     /* border: 1px solid black; */
     background-image: url(../images/blog_bannerbg.png);
-    /* height: vh;影響導覽列位置 */
     height: 90vh;
     width: 90%;
     background-size: cover;

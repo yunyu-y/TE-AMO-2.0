@@ -4,16 +4,20 @@
 
 .gototop_img {
     position: fixed;
-    right: 20px;
-    bottom: 20px;
+    right: 8px;
+    bottom: 8px;
     cursor: pointer;
     z-index: 1;
 }
-
+@media (max-width: 320px) {
+    .gototop_img {
+        right: 5px;
+        bottom: 5px;
+    }
+}
 div.banner {
     /* border: 1px solid blue; */
     width: 100%;
-    /* position: relative; */
 }
 div.bannerbg {
     /* border: 1px solid black; */
@@ -112,7 +116,6 @@ div.res_btn:hover {
     background-image: url(../images/bgmarble.jpg);
     background-position: center right;
     background-size: contain;
-    /* background-repeat: repeat-x; */
 }
 .slogan {
     width: 100%;
@@ -606,12 +609,12 @@ div.res_btn:hover {
     overflow: hidden;
 }
 .pf_more {
-    border: 3px solid #90604c;
-    width: 80%;
+    /* border: 3px solid #90604c; */
+    width: 30%;
     margin: 0.5rem auto;
     text-align: center;
     padding: 14px 0 10px 0;
-    /* background-color: #e1d3b6; */
+    background-color: #e1d3b6;
     color: #90604c;
 }
 .pf_more:hover {
@@ -646,7 +649,7 @@ div.res_btn:hover {
     }
     .pf_more {
         margin: 0 auto;
-        width: 65%;
+        /* width: 65%; */
         font-size: 16px;
         margin-top: 1rem;
     }
@@ -900,13 +903,13 @@ section.area7 {
 }
 
 .blog_more {
-    border: 3px solid #90604c;
-    width: 65%;
+    /* border: 3px solid #90604c; */
+    width: 30%;
     margin: 0 auto 1rem auto;
     text-align: center;
     padding: 14px 0 10px 0;
     /* font-size: 1.5rem; */
-    /* background-color: #e1d3b6; */
+    background-color: #e1d3b6;
     color: #90604c;
 }
 
@@ -975,5 +978,25 @@ section.area7 {
 @media (max-width: 320px) {
     .blog_Limg img {
         height: 378px;
+    }
+}
+@media (max-width: 1200px) {
+    h4.pf_more,
+    h4.blog_more {
+        font-size: 24px;
+    }
+}
+@media (max-width: 768px) {
+    h4.pf_more,
+    h4.blog_more {
+        padding: 5px auto;
+        width: 50%;
+    }
+}
+@media (max-width: 576px) {
+    h4.pf_more,
+    h4.blog_more {
+        font-size: 20px;
+        padding: 3px 0;
     }
 }
