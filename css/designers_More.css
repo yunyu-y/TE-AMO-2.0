@@ -172,7 +172,23 @@ button {
 
 @media (max-width: 576px) {
     .desm_deco img {
-        min-width: 62px;
+        width: 30%;
+        margin: 1.5rem auto;
+    }
+}
+@media (max-width: 414px) {
+    .desm_deco img {
+        height: 65px;
+    }
+}
+@media (max-width: 375px) {
+    .rdesm_deco img {
+        height: 60px;
+    }
+}
+@media (max-width: 320px) {
+    .desm_deco img {
+        height: 50px;
     }
 }
 

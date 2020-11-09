@@ -306,25 +306,18 @@ button:hover {
     }
 }
 @media (max-width: 768px) {
+    .res_formL {
+        width: 90%;
+    }
     .res_formR {
         /* border: 1px solid red; */
         width: 100%;
     }
-    /* .formCon {
-        border: 1px solid blue;
-    } */
     .formCon_Tit {
         width: 25%;
     }
-    h2 {
-        font-size: 25px;
-    }
-    h3 {
+    .formCon > h3 {
         font-size: 18px;
-    }
-    p,
-    button {
-        font-size: 14px;
     }
 }
 @media (max-width: 576px) {
@@ -333,7 +326,7 @@ button:hover {
     }
     button {
         padding: 5px 30px;
-
         margin: 0.5rem auto;
     }
 }
+
