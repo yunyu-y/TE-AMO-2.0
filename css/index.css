@@ -827,7 +827,7 @@ section.area7 {
     justify-content: center;
 }
 .blog_bigcontent {
-    /* border: 1px solid red; */
+    border: 1px solid red;
     width: 90%;
     margin: 0 auto;
     display: flex;
@@ -836,14 +836,14 @@ section.area7 {
 }
 .blog_Limg {
     /* border: 1px solid red; */
-    width: 40%;
+    width: 50%;
     display: flex;
     overflow: hidden;
 }
 
 .blog_Rarea {
     /* border: 1px solid blue; */
-    width: 45%;
+    width: 50%;
     padding: 30px;
     background-color: rgba(255, 255, 255, 0.8);
 }
