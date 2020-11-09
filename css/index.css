@@ -822,7 +822,7 @@ section.area7 {
     justify-content: center;
 }
 .blog_bigcontent {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 90%;
     margin: 0 auto;
     display: flex;
@@ -838,14 +838,14 @@ section.area7 {
 
 .blog_Rarea {
     /* border: 1px solid blue; */
-    width: 50%;
-    padding: 30px;
+    width: 40%;
+    padding: 40px;
     background-color: rgba(255, 255, 255, 0.8);
 }
 .blog_name {
     /* border: 1px solid blue; */
     margin: 1rem 0 1rem 1rem;
-    font-size: 2rem;
+    font-size: 32px;
     display: flex;
     align-items: center;
 }
@@ -856,7 +856,7 @@ section.area7 {
     align-items: center;
 }
 .blog_content {
-    font-size: 1.2rem;
+    font-size: 20px;
     line-height: 2rem;
 }
 
@@ -876,47 +876,33 @@ section.area7 {
 }
 
 @media (max-width: 1200px) {
-    .blog_name {
-        margin: 0 auto 1rem auto;
-        font-size: 1.5rem;
-    }
-
-    .blog_content {
-        width: 100%;
-        font-size: 1rem;
-        line-height: 1.2rem;
-    }
-    .blog_Rarea {
-        padding: 15px;
-    }
-    .blog_name {
-        margin: 0 auto 1rem auto;
-        font-size: 1rem;
-    }
-}
-
-@media (max-width: 768px) {
-    .blog_Limg {
-        width: 49%;
-    }
     .blog_Rarea {
         padding: 20px;
     }
     .blog_name {
-        font-size: 1rem;
+        margin: 0 auto 1rem auto;
+        font-size: 24px;
     }
-
     .blog_content {
-        font-size: 0.8rem;
-        line-height: 1rem;
-    }
-    .blog_more {
-        margin-top: -0.5rem;
-        padding: 10px 0 5px 0;
-        font-size: 1rem;
+        width: 100%;
+        font-size: 18px;
     }
 }
-@media (max-width: 576px) {
+@media (max-width: 992px) {
+    .blog_Rarea {
+        padding: 15px;
+    }
+    .blog_name {
+        /* margin: 0 auto 1rem auto; */
+        font-size: 20px;
+    }
+    .blog_content {
+        /* width: 100%; */
+        font-size: 16px;
+        line-height: 1.5rem;
+    }
+}
+@media (max-width: 768px) {
     .blog_bigcontent {
         width: 100%;
         flex-direction: column;
@@ -927,14 +913,12 @@ section.area7 {
     }
     .blog_Limg img {
         width: 100%;
-        max-width: 100% !important;
-        max-height: 100% !important;
     }
     .blog_Rarea {
         width: 95%;
         margin: 0 auto;
         background-color: rgba(255, 255, 255, 0.021);
-        box-shadow: 1px 1px 10px gray;
+        box-shadow: 2px 2px 10px gray;
     }
 }
 @media (max-width: 414px) {
@@ -951,4 +935,8 @@ section.area7 {
     .blog_Limg img {
         height: 378px;
     }
+    /* .blog_bigcontent {
+        width: 100%;
+        margin: 0 auto;
+    } */
 }
