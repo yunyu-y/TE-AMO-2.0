@@ -184,6 +184,15 @@ aside.move {
 .blog_pageRsum {
     padding-left: 10px;
 }
+
+@font-face {
+    font-family: 'Book Antiqua'; /* 自訂名稱 */
+    src: url('../fonts/ANTQUAB.TTF'); /* 字體檔路徑 */
+    src: url('../fonts/ANTQUABI.TTF'); /* 字體檔路徑 */
+    src: url('../fonts/ANTQUAI.TTF'); /* 字體檔路徑 */
+    src: url('../fonts/BKANT.TTF'); /* 字體檔路徑 */
+}
+
 .blog_pageRnum {
     font-family: 'Book Antiqua';
     font-style: italic;
