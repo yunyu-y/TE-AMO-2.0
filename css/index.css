@@ -924,13 +924,13 @@ section.area7 {
         flex-direction: column;
     }
     .blog_Limg {
-        width: 90%;
+        width: 95%;
         margin: 0 auto;
     }
     .blog_Limg img {
         width: 100%;
-        min-width: 415px;
-        min-height: 550px;
+        /* min-width: 415px; */
+        min-height: 575px;
     }
     .blog_Rarea {
         width: 95%;
