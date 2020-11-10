@@ -92,6 +92,11 @@ footer {
         font-size: 0.9rem;
     }
 }
+@media (max-width: 320px) {
+    .des_introTitle {
+        margin-top: 3rem;
+    }
+}
 .des_area2 {
     width: 100%;
     margin: 2rem 0;
