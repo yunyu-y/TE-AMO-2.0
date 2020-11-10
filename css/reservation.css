@@ -334,6 +334,17 @@ button:hover {
         height: 501px;
     }
 }
+@media screen and (min-width: 320px) and (max-width: 575px) {
+    .formCon {
+        justify-content: space-around;
+    }
+    .formCon_Box {
+        width: 50%;
+    }
+    .formCon_BoxDate {
+        width: 15%;
+    }
+}
 @media (max-width: 375px) {
     .res_formL img {
         height: 453px;
