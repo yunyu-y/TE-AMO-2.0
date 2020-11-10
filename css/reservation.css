@@ -2,6 +2,10 @@
 @import './common/header.css';
 @import './common/footer.css';
 
+header {
+    position: sticky;
+}
+
 header,
 .nav_mobile,
 .des_are1,
