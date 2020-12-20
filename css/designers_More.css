@@ -2,6 +2,10 @@
 @import './common/header.css';
 @import './common/footer.css';
 
+.mobile_des {
+    color: #90604c;
+    font-weight: 700;
+}
 .bgimg {
     width: 100%;
     background-image: url(../images/desmbg.png);

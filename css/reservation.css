@@ -17,6 +17,10 @@ footer {
 .min_nav > ul > li.reservation {
     background: linear-gradient(360deg, rgba(255, 255, 255, 0), #e1d3b6);
 }
+.mobile_res {
+    color: #90604c;
+    font-weight: 700;
+}
 .res_videoOut {
     /* border: 1px solid blue; */
     width: 100%;

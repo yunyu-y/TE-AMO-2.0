@@ -53,7 +53,8 @@ div.res_btn {
     color: #231815;
     display: inline-block;
     position: absolute;
-    top: 90%;
+    top: 85vh;
+    /* top: 90%; */
     left: 50%;
     transform: translate(-50%, -100%);
     z-index: 1;

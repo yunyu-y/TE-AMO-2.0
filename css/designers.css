@@ -14,7 +14,10 @@ div.bannerbg {
     background-position: center;
     margin: 0 auto;
 }
-
+.mobile_des {
+    color: #90604c;
+    font-weight: 700;
+}
 .des_are1 {
     width: 100%;
 }

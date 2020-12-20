@@ -15,6 +15,10 @@ div.bannerbg {
     background-position: center;
     margin: 0 auto;
 }
+.mobile_blog {
+    color: #90604c;
+    font-weight: 700;
+}
 
 .blog_are1 {
     width: 100%;
@@ -172,7 +176,7 @@ aside.move > a:hover {
     font-size: 0;
     overflow: hidden;
 }
-.blog_pageL img {
+.blog_pageL img { 
     transition: 1s;
 }
 .blog_pageL img:hover {
